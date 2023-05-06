@@ -1,0 +1,227 @@
+body {
+  display: grid;
+  justify-content: center;
+  background-color: rgb(243, 245, 252);
+}
+
+.encriptador-titulo {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+	font-size: 36px;
+  width: 100%;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient(45deg, rgba(0, 120, 231, 0.66), #0078e7);
+}
+
+.contenido {
+  border-color: cornflowerblue;
+  background-color: rgb(243, 245, 252);
+  max-width: 1124px;
+}
+
+.contenido-areas {
+  display: flex;
+}
+
+button {
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+}
+
+textarea {
+  resize: none;
+}
+
+.boton-contenido {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boton-copiar-clase {
+  display: flex;
+  justify-content: center;
+}
+
+.boton-contenido-copiar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.boton-encriptar {
+  background: linear-gradient(45deg, rgba(0, 120, 231, 0.66), #0078e7);
+  box-shadow: 0 14px 50px -4px hsla(0, 0%, 0%, 0.15);
+  color: white;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.boton-desencriptar {
+  background-color: transparent;
+  color: rgb(10, 56, 113);
+  border-color: rgb(10, 56, 113, 0.66);
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.boton-copiar {
+  background-color: transparent;
+  color: rgb(10, 56, 113);
+  border-color: rgb(10, 56, 113, 0.66);
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.btn-copy-no-visible {
+  background-color: transparent;
+  color: rgb(10, 56, 113);
+  border-color: rgb(10, 56, 113, 0.66);
+  font-size: 1.15rem;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.textarea-men {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  height: 500px;
+  font-size: 1.15rem;
+  color: rgb(10, 56, 113);
+}
+
+.textarea-men:focus {
+  outline: none;
+}
+
+.textarea-dec {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  height: 500px;
+  font-size: 1.15rem;
+}
+
+.textarea-dec:focus {
+  outline: none;
+}
+
+.textarea-init {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  height: 500px;
+  font-size: 1.15rem;
+  background-image: url("./images/nada.png");
+  background-repeat: no-repeat;
+}
+
+.textarea-background {
+  width: 100%;
+  height: 500px;
+}
+
+.letter {
+  width: 15%;
+  margin: 0px 20px 0px 20px;
+}
+
+.area1 {
+  width: 60%;
+  margin: 0px 20px 0px 20px;
+}
+
+.area2 {
+  width: 25%;
+  height: 580px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0px 20px 20px 20px;
+}
+
+.frm-derechos {
+  width: 100%;
+}
+
+.derechos {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.derechos:focus {
+  outline: none;
+}
+
+.derechos-top {
+  background-image: linear-gradient(265deg, #43cbff, #688cff);
+  padding: 1.2em 0;
+  color: white;
+}
+
+.derechos-top::after,
+.derechos-top::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.derechos-top-label:hover {
+  opacity: 0.5;
+}
+
+.input-alert-message {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: rgb(112, 113, 117);
+}
+
+.input-alert-message:focus {
+  outline: none;
+}
+
+.alert-div {
+  color: rgb(112, 113, 117);
+  display: flex;
+}
+
+.alert-div {
+  color: rgb(112, 113, 117);
+  display: flex;
+  height: 18px;
+}
+
+.alert-img {
+  width: 20px;
+}
+
+.image-nada {
+  display: inline;
+  width: 100%;
+  height: auto;
+}
+
+.no-visible {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center2 {
+  text-align: center;
+  color: rgb(112, 113, 117);
+}
+
+.frm-derechos {
+  width: 100%;
+}
+
